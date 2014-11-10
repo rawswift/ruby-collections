@@ -24,3 +24,12 @@ while n <= 9
   n += 1
 end
 
+# until iterator
+puts "until iterator:"
+
+m = 9
+until m <= 0
+  puts m
+  m -= 1
+end
+
