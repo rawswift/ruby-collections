@@ -2,6 +2,7 @@
 
 x = ['a', 'b', 'c', 'd', 'e']
 y = [] # empty array
+z = [1, 2, 3, 4]
 
 # iterate through array
 x.each { |c| puts c.upcase } # A B C D E
@@ -34,4 +35,13 @@ puts y.length # 4
 puts y.join # FOOBARJohnDoe
 
 puts y.join(', ') # FOO, BAR, John, Doe
+
+z = z.collect { |n| n * 3 } # 3 6 9 12
+z.each { |n| puts n }
+
+# array concatenation
+xyz = x + y + z
+
+puts "Array concatenated:"
+puts xyz
 
