@@ -7,6 +7,12 @@
 # Invalid variable names:
 #   2bar, foo bar, foobar!, foo@bar, foo'bar, foo-bar, this-foo-bar
 #
+# Local, Global, Object, and Class variables:
+#   x = 'local variable'
+#   $x = 'global variable'
+#   @x = 'object variable'
+#   @@x = 'class variable'
+#
 
 x = 1
 y = 2
